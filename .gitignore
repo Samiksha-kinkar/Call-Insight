@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Virtual environments
+**/venv/
+**/.venv/
+**/env/
+
+# Data
+data/raw/
+data/transcripts/
+data/processed/
+ml-services/data/vector_db/
+
+# Trained models
+models/
+
+# Environment/secrets
+.env
+# OS/editor files
+.DS_Store
+.vscode/
+
+# Node
+node_modules/
+dist/
