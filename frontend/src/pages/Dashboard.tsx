@@ -314,11 +314,11 @@ const dummyCallTemplates = [
 ]
 
 const dateOffsets = [
-  0, 0, 1, 1, 2,
-  2, 3, 3, 4, 4,
-  5, 5, 6, 6, 0,
-  1, 2, 3, 4, 5,
-  6, 0, 1, 2, 3,
+  1, 1, 2, 2, 3,
+  3, 4, 4, 5, 5,
+  6, 6, 7, 7, 1,
+  2, 3, 4, 5, 6,
+  7, 1, 2, 3, 4,
 ]
 
 function formatDateKey(date: Date) {
@@ -841,14 +841,7 @@ const recentCalls = [
   return (
     <div className="dashboard-page">
       <div className="dashboard-page-header">
-        <div>
-          <h1>Dashboard</h1>
-          <p>
-            Overview of your customer call
-            analytics
-          </p>
-        </div>
-
+        
         <select
           className="dashboard-period"
           value={period}
